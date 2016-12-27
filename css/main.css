@@ -1,0 +1,54 @@
+body
+{
+    font-family: cursive;
+}
+header{
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: url('../img/fondo.jpg');
+    background-position:  center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+.form
+{ 
+    border:2px solid black; 
+    background-color:rgba(100,100,60,0.5); 
+    padding: 50px 0px; 
+    border-radius: 5px 30px 45px 60px;
+    -moz-border-radius: 5px 30px 45px 60px;
+    -webkit-border-radius: 15px;
+}
+.logo{  width: 30%; }
+
+.btn_menu{ border:2px solid black; }
+
+.degradado{ background-color: rgba( 214,157,35,0.5); }
+
+.hero .diff{  margin:0 -15px; color: white ; padding: 0px 0px 20px 0px; }
+
+.hero .frase{ margin: 0 auto; padding:50px; width: 70%; color: white;}
+
+.hero .frase h2{font-size: 50px;}
+
+.diff input{ width: 50%;margin: 0 auto;text-align: center; }
+
+.diff label{ font-size: 18px; margin-bottom: 15px; }
+.diff img{width: 30%;}
+#salida{ color: white; width: 60%; margin: 0 auto; border:2px solid black; }
+#mensajes{width: 80%; margin: 0 auto;}
+.alert{background-color: green;}
+.alert p{color: white;}
+.alert_num{background-color: red;}
+.alert_num p{color: white;}
+
+@media screen and (max-width: 1000px )
+{
+	.logo{width: 80%;}
+	.hero .frase { width: 100%; color: white; padding:60px 30px;}
+	.hero .frase h2 { font-size: 30px; }
+	.btn_menu{ margin-bottom: 10px; }
+	.rpta{margin-top: -100px;}
+}
